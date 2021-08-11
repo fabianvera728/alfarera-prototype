@@ -1,0 +1,9 @@
+.is_flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.is_flex p{
+    margin: .2rem 0;
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "products",
+  "info": {
+    "name": "Products",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content_us": {
+      "model": "content-us"
+    },
+    "beers": {
+      "collection": "beer"
+    },
+    "foods": {
+      "collection": "food"
+    },
+    "rental": {
+      "model": "rental"
+    },
+    "header": {
+      "model": "header"
+    }
+  }
+}

@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&family=Kulim+Park:wght@200&display=swap');
+
+:root {
+  --brown-primary: #34090C;
+  --brown-second: #4C2F31;
+  --brown-dark: #1F0406;
+  --yellow-primary: #F5CD64;
+  --yellow-secondary: #f1d489;
+  --rounded-radius-1: 5px;
+  --rounded-radius-2: 10px;
+  --gray-1: #f4efe7;
+  --gray-2: #EBE5DC;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  background: var(--gray-1);
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex_direction_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn_primary {
+  cursor: pointer;
+  background: var(--yellow-primary);
+  padding: .6rem 1.5rem;
+  font-family: 'Kulim Park', serif;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: var(--brown-primary);
+  border-radius: var(--rounded-radius-1);
+  border: 1px solid var(--yellow-primary);
+}
+
+.btn_primary:hover {
+  background: var(--yellow-secondary);
+}
+
+.article {
+  padding: 2rem 9rem 2rem 9rem;
+}
+
+.btn_link {
+  color: white;
+  cursor: pointer;
+  font-family: 'Kulim Park', serif;
+  font-weight: bold;
+  padding: .5rem 1rem;
+  text-decoration: var(--yellow-primary) 2px underline;
+}
+.btn_link_dark {
+  color: var(--brown-primary);
+  cursor: pointer;
+  font-family: 'Kulim Park', serif;
+  font-weight: bold;
+  padding: .5rem 1rem;
+  text-decoration: var(--brown-primary) 2px underline;
+}
+
+.textarea_custom {
+  border: none;
+  width: -webkit-fill-available;
+  width: 100%;
+  padding: .7rem 1rem;
+  height: 4rem;
+  background: var(--gray-2);
+  border-radius: var(--rounded-radius-2);
+}
+
+.is_gray_2{
+  background: var(--gray-2);
+}
+.is_brown_primary{
+  background: var(--brown-primary);
+}
+.input_text {
+  border: none;
+  outline:  none;
+  width: -webkit-fill-available;
+  width: 100%;
+  padding: .7rem 1rem;
+  background: var(--gray-2);
+  border-radius: var(--rounded-radius-2);
+}
+
+.font_title{
+  
+  font-family: 'Frank Ruhl Libre', serif;
+}
+
+.font_normal{
+  font-family: 'Kulim Park', sans-serif;
+}
+
+.is_size_2{
+  font-size: 2em;
+}
+
+.is_size_2_1{
+  font-size: 2em;
+}
+
+.is_size_1{
+  font-size: 3em;
+}
+
+.is_size_3{
+  font-size: 1.3em;
+}
+
+.is_size_4{
+  font-size: 1.1em;
+}
+
+.is_bold{
+  font-weight: bold;
+}
+
+.has_text_brown{
+  color: var(--brown-primary);
+}
+
+.has_text_yellow{
+  color: var(--yellow-primary);
+}
+.has_text_white{
+  color: white;
+}
+
+.margin_1{
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.margin_0{
+  margin-top: .2rem;
+  margin-bottom: .2rem;
+}
+
+.margin_top_1{
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+}
+
+.margin_bottom_1{
+  margin-top: .0rem;
+  margin-bottom: .5rem;
+}
+
+.padding_right_2{
+  padding-right: 1rem;
+}
+
+
+@media only screen and (max-width: 990) {
+  .article{
+    padding: 2rem 9rem;
+  }
+}
+@media screen and (max-width: 1200) {
+  .article{
+    padding: 3rem 9rem;
+  }
+}

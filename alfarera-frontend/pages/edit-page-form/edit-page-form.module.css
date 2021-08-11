@@ -1,0 +1,38 @@
+
+.article {
+    padding: 2rem 9rem;
+}
+
+.is_flex{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.home{
+    justify-content: space-between;
+}
+
+.item{
+    width: 100%;
+    padding-right: 1rem;
+}
+
+.description{
+    padding-bottom: 1rem ;
+    width: 50%;
+}
+
+
+@media  screen and (max-width: 900px) {
+    .description{
+        width: 100%;
+    }
+}
+@media  screen and (min-width: 900px) {
+    .item{
+        width: 50%;
+        padding-right: 1rem;
+    }
+}
+

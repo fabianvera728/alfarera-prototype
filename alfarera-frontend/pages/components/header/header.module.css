@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .logo{
+    width: 2rem;
+    height: auto;
+}
+.header a{
+    color: white;
+    padding: 0 1rem;
+    margin: 0 1rem;
+    cursor: pointer;
+}

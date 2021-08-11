@@ -1,0 +1,162 @@
+.container {
+    padding: 1rem 1rem;
+}
+
+.background {
+    padding: 1rem 5rem;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    z-index: 0;
+    transform-style: inherit;
+}
+
+.background, .background:before {
+    background: 50% 50% / cover;
+}
+
+.background:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    z-index: -2;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://www.masaya-experience.com/wp-content/uploads/2019/02/DrinkQUITO3_Vistahermosa-1.jpg);
+}
+
+.background:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--brown-primary);
+    background: var(--brown-primary);
+    opacity: .9;
+}
+
+
+.hero_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 10rem;
+    color: white;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.hero p {
+    text-align: end;
+    max-width: 50%;
+}
+
+.hero div a {
+    color: white;
+    cursor: pointer;
+    padding: 1rem 1rem;
+    text-decoration: var(--yellow-primary) 3px underline;
+}
+
+
+.content {
+    padding: 2rem 8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.content div {
+    display: flex;
+}
+.content div p{
+    padding-right: 1rem;
+}
+
+.border_section_revert {
+    transform: rotate(180deg) translateY(-1px);
+}
+
+.section {
+    padding: 2rem 4rem;
+    position: relative;
+    width: 100%;
+    transform-style: inherit;
+    background: var(--brown-primary);
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content_section h2 {
+    color: var(--yellow-primary);
+}
+
+.content_section {
+    width: 14rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.content_section div {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.content_section div input {
+    margin: .4rem;
+    color: var(--yellow-primary);
+    border-radius: var(--rounded-radius-1);
+    padding: .5rem 1rem;
+    width: 100%;
+    background: var(--brown-second);
+    width: -webkit-fill-available;
+    border: none;
+}
+
+.content_section div textarea {
+    border-radius: var(--rounded-radius-1);
+    padding: .5rem;
+    margin: .4rem;
+    border: none;
+    height: 5rem;
+    color: var(--yellow-primary);
+    background: var(--brown-second);
+    width: 100%;
+}
+
+.footer .logo{
+    width: 2rem;
+}
+
+.border_section_rotate{
+    transform: rotate(180deg);   
+}
+
+
+@media screen and (min-width: 990px ){
+    .content_section{
+        padding: 2rem 10rem;
+    }
+    .content{
+        padding: 2rem 12rem;
+    }
+}

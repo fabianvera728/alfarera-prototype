@@ -1,0 +1,124 @@
+.background {
+    padding: 1rem 5rem;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    z-index: 0;
+    transform-style: inherit;
+}
+
+.background, .background:before {
+    background: 50% 50% / cover;
+}
+
+.background:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    z-index: -2;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://www.masaya-experience.com/wp-content/uploads/2019/02/DrinkQUITO3_Vistahermosa-1.jpg);
+}
+
+.background:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--brown-primary);
+    background: var(--brown-primary);
+    opacity: .9;
+}
+.hero_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 10rem;
+    color: white;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.hero p {
+    text-align: end;
+    max-width: 50%;
+}
+
+.is_flex{
+    display: flex;
+    justify-content: space-between;
+}
+.column{
+    flex-direction: column;
+    justify-content: start;
+}
+
+.align_center{
+    align-items: center;
+}
+
+.hero div a {
+    color: white;
+    cursor: pointer;
+    padding: 1rem 1rem;
+    text-decoration: var(--yellow-primary) 3px underline;
+}
+
+.section_article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+.section_input{
+    width: 100%;
+}
+
+.section_input_card{
+    padding: 1rem 0;
+}
+
+.section_input_card input{
+    background: var(--gray-1);
+    margin-right: .5rem;
+    padding: 0 1.5rem;
+}
+
+.custom_input{
+    background: var(--gray-1);
+    margin-right: .5rem;
+    padding: 1 0rem;
+}
+
+.filters button{
+    margin: .5rem;
+}
+
+.input{
+    width: 50%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: -webkit-fill-available;
+    background: var(--gray-2);
+    border-radius: var(--rounded-radius-2);
+    margin-bottom: 1rem;
+}

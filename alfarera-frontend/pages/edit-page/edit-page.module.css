@@ -1,0 +1,22 @@
+
+
+.article {
+    padding: 2rem 9rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
+    grid-gap: 5px;
+}
+
+.card_image{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    align-items: center;
+}
+.card_image button{
+    background: var(--brown-primary);
+    border-radius: var(--rounded-radius-2);
+}
