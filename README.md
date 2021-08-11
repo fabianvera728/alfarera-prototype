@@ -27,11 +27,11 @@ Alfarera es una página web creada con la intención de ayudar a pequeñas y med
 ## 🐋 Para empezar
 
 1. Clone este repository  :  `https://github.com/fabianvera728/alfarera-prototype`.
-2. Nos dirigimos a la carpeta de frontend, ejecutamos el comando `npm install`.
-3. Al igual que en el punto anterior hacemos lo mismo con la carpeta de backend.
-4. Posteriomente ejecutamos el comando `npm run dev` dentro de la carpeta frontend
-5. En la carpeta backend ejecutamos el comando `npm start`.
-6. Finalmente tenmos nuestro proyecto corriendo 
+2. Nos dirigimos a la carpeta de `alfarera-frontend`, ejecutamos el comando `npm install`.
+3. Nos dirigimos a la carpeta de `fiigy-strapi/app`, ejecutamos el comando `npm install`.
+4. Volvemos a la carpeta `fiigy-strapi` y ejecutamos el comando `docker-compose up`.
+5. Posteriomente ejecutamos el comando `npm run dev` dentro de la carpeta `alfarera-frontend`.
+6. Finalmente tenemos nuestro proyecto corriendo 
 
 
 ## 🦧 Diseño UI
@@ -40,7 +40,7 @@ Alfarera es una página web creada con la intención de ayudar a pequeñas y med
 
 ## 🖋️ Authors
 
-- Wilmer Rodríguez Sánchez 
 - Fabian Vera Carrillo 
+- Wilmer Rodríguez Sánchez 
 - Luis Alfredo Acosta
-- Edwuar Florez
+- Edward Florez
