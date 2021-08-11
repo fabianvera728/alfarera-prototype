@@ -11,17 +11,11 @@
 Alfarera es una página web creada con la intención de ayudar a pequeñas y medianas empresas que se han visto afectadas por la pandemia Covid 19. La página web contiene las siguientes funcionalidades:
 
 * Comerciar productos y servicios a través de la web.
-
 * Permitir un contacto directo con sus clientes, permitiendo tener feedback de ellos.
-
 * Generar un ambiente de comunidad, creando lealtad hacia su marca.
-
 * Gestionar fácilmente sus anuncios.
-
 * Reflejar estadísticas de venta y consumo de sus productos.
-
 * Permitir gestionar eventos presenciales y virtuales.
-
 
 
 ## 🐋 Para empezar
